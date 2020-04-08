@@ -1,0 +1,113 @@
+body {
+    background: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-shadow: 2px 2px rgb(182, 182, 182);
+}
+
+.nav {
+    box-shadow: 0 3px rgb(182, 182, 182);
+}
+
+.header {
+    /* opacity: 0.8; */
+}
+
+.name {
+    font-weight: 800;
+}
+
+#resumeBtn {
+    color: black;
+    border: 1px solid blue;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    /* box-shadow: 0 4px rgb(182, 182, 182); */
+    
+}
+
+#resumeBtn:hover {
+    background-color: #e6e6e6;
+    /* box-shadow: 0 7px rgb(182, 182, 182); */
+    transform: translateY(-3px);
+    transition-duration: all 1s;
+    animation: shadow 1s 1;
+    animation-fill-mode: forwards;
+}
+
+#resumeBtn:active {
+    transform: translateY(3px);
+    animation: click 5s 1;
+    /* transition-duration: all 1s; */
+    /* box-shadow: 0 1px rgb(182, 182, 182); */
+}
+
+.icon {
+    margin-left: 20px;
+    font-size: 60px !important;
+}
+
+.github {
+    margin: 0;
+}
+
+.card {
+    display: inline-block;
+    /* width: 375px; */
+    height: 403.28px;
+}
+
+.cardMedia {
+    width: 373px;
+    height: 222.48px;
+}
+
+.cardTitle {
+    color: black;
+    font-weight: 500 !important;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.myInfo {
+    margin-left: 120px;
+}
+
+.profileImg {
+    border-radius: 75px;
+}
+
+
+/* img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  } */
+
+  @media only screen and (max-width: 991px) {
+    .myInfo {
+        margin-left: 0;
+    }
+    .profileImg {
+        margin: 0 auto;
+    }
+  }
+
+
+  @keyframes shadow {
+    100% {box-shadow: 0 7px rgb(182, 182, 182);}
+  }
+
+  @keyframes click {
+    100% {box-shadow: 0 3px rgb(182, 182, 182);}
+  }
